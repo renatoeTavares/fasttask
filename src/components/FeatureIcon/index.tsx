@@ -34,12 +34,14 @@ const FeatureItem: React.FC<FeatureItemProps> = ({ feature }) => {
   const Icon = feature.icon;
 
   return (
-    <ItemWrapper>
-      <IconWrapper>
-        <Icon />
-      </IconWrapper>
-      <Text>{feature.text}</Text>
-    </ItemWrapper>
+    <>
+      <ItemWrapper>
+        <IconWrapper>
+          <Icon />
+        </IconWrapper>
+        <Text>{feature.text}</Text>
+      </ItemWrapper>
+    </>
   );
 };
 

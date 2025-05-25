@@ -9,14 +9,16 @@ import PricingSection from '../../sections/PricingSection';
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <HeroSection />
-      <FeaturesSection />
-      <BenefitsSection />
-      <HowItWorksSection /> 
-      <PricingSection />
-      <CallToActionSection /> 
-    </div>
+    <>
+      <div>
+        <HeroSection />
+        <FeaturesSection />
+        <BenefitsSection />
+        <HowItWorksSection /> 
+        <PricingSection />
+        <CallToActionSection /> 
+      </div>
+    </>
   );
 };
 

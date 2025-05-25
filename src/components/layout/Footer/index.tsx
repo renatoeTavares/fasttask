@@ -60,36 +60,38 @@ const ListItem = styled.li`
 
 const Footer: React.FC = () => {
   return (
-    <FooterContainer>
-      <ContentWrapper>
-        <Column>
-          <SectionTitle>Sobre Nós</SectionTitle>
-          <List>
-            <ListItem>Quem somos</ListItem>
-            <ListItem>Missão e Visão</ListItem>
-            <ListItem>Equipe</ListItem>
-          </List>
-        </Column>
+    <>
+      <FooterContainer>
+        <ContentWrapper>
+          <Column>
+            <SectionTitle>Sobre Nós</SectionTitle>
+            <List>
+              <ListItem>Quem somos</ListItem>
+              <ListItem>Missão e Visão</ListItem>
+              <ListItem>Equipe</ListItem>
+            </List>
+          </Column>
 
-        <Column>
-          <SectionTitle>Serviços</SectionTitle>
-          <List>
-            <ListItem>Consultoria</ListItem>
-            <ListItem>Suporte</ListItem>
-            <ListItem>Desenvolvimento</ListItem>
-          </List>
-        </Column>
+          <Column>
+            <SectionTitle>Serviços</SectionTitle>
+            <List>
+              <ListItem>Consultoria</ListItem>
+              <ListItem>Suporte</ListItem>
+              <ListItem>Desenvolvimento</ListItem>
+            </List>
+          </Column>
 
-        <Column>
-          <SectionTitle>Contato</SectionTitle>
-          <List>
-            <ListItem>Email: contato@seudominio.com</ListItem>
-            <ListItem>Telefone: (11) 1234-5678</ListItem>
-            <ListItem>Endereço: Rua Exemplo, 123</ListItem>
-          </List>
-        </Column>
-      </ContentWrapper>
-    </FooterContainer>
+          <Column>
+            <SectionTitle>Contato</SectionTitle>
+            <List>
+              <ListItem>Email: contato@seudominio.com</ListItem>
+              <ListItem>Telefone: (11) 1234-5678</ListItem>
+              <ListItem>Endereço: Rua Exemplo, 123</ListItem>
+            </List>
+          </Column>
+        </ContentWrapper>
+      </FooterContainer>
+    </>
   );
 };
 

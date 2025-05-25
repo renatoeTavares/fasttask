@@ -10,10 +10,12 @@ interface HeroCardProps {
 
 const HeroCard: React.FC<HeroCardProps> = ({ imageSrc, altText, children, className }) => {
   return (
-    <div className={`ft-hero-card ${className}`}>
-      <img src={imageSrc} alt={altText} className="ft-hero-card-img" />
-      {children && <div className="ft-hero-card-content">{children}</div>}
-    </div>
+    <>
+      <div className={`ft-hero-card ${className}`}>
+        <img src={imageSrc} alt={altText} className="ft-hero-card-img" />
+        {children && <div className="ft-hero-card-content">{children}</div>}
+      </div>
+    </>
   );
 };
 

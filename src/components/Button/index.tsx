@@ -28,9 +28,11 @@ const Button: React.FC<ButtonProps> = ({ children, to, href, onClick, className 
   }
 
   return (
-    <button className={`ft-btn ${className}`} onClick={onClick}>
-      {children}
-    </button>
+    <>
+      <button className={`ft-btn ${className}`} onClick={onClick}>
+        {children}
+      </button>
+    </>
   );
 };
 

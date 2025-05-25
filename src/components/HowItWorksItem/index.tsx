@@ -39,10 +39,12 @@ const Text = styled.span`
 
 const HowItWorksItem: React.FC<HowItWorksItemProps> = ({ step }) => {
   return (
-    <ItemWrapper>
-      <StepNumberWrapper>{step.stepNumber}</StepNumberWrapper>
-      <Text>{step.text}</Text>
-    </ItemWrapper>
+    <>
+      <ItemWrapper>
+        <StepNumberWrapper>{step.stepNumber}</StepNumberWrapper>
+        <Text>{step.text}</Text>
+      </ItemWrapper>
+    </>
   );
 };
 
