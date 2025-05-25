@@ -1,0 +1,37 @@
+.ft-call-to-action {
+  background-color: var(--ft-color-bg-light);
+  color: var(--ft-color-bg-light);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  font-family: var(--ft-font-family);
+}
+
+.ft-cta-content h2 {
+  color: var(--ft-color-secondary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ft-cta-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: var(--ft-color-primary);
+}
+
+.ft-cta-button {
+  background-color: var(--ft-color-primary);
+  color: var(--ft-color-bg-light);
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.ft-cta-button:hover {
+  background-color: var(--ft-color-accent);
+}
